@@ -1,0 +1,18 @@
+
+{
+  "project_name": "MedVision AI",
+  "dataset_root": "data/raw/chest_xray",
+  "train_dir": "train",
+  "validation_dir": "val",
+  "test_dir": "test",
+  "class_names": ["NORMAL", "PNEUMONIA"],
+  "image_size": 224,
+  "validation_split": 0.2,
+  "random_seed": 42,
+  "batch_size": 16,
+  "num_workers": 0,
+  "model_name": "densenet121",
+  "pretrained": true,
+  "num_epochs": 10,
+  "learning_rate": 0.0001
+}

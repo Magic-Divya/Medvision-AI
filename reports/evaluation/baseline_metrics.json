@@ -1,0 +1,51 @@
+{
+  "checkpoint_epoch": 2,
+  "test_images": 624,
+  "test_loss": 0.605771141370683,
+  "accuracy": 0.8541666666666666,
+  "weighted_precision": 0.8751085084636602,
+  "weighted_recall": 0.8541666666666666,
+  "weighted_f1_score": 0.8454598124934162,
+  "roc_auc": 0.9449430199430199,
+  "class_names": [
+    "NORMAL",
+    "PNEUMONIA"
+  ],
+  "confusion_matrix": [
+    [
+      147,
+      87
+    ],
+    [
+      4,
+      386
+    ]
+  ],
+  "classification_report": {
+    "NORMAL": {
+      "precision": 0.9735099337748344,
+      "recall": 0.6282051282051282,
+      "f1-score": 0.7636363636363637,
+      "support": 234.0
+    },
+    "PNEUMONIA": {
+      "precision": 0.8160676532769556,
+      "recall": 0.9897435897435898,
+      "f1-score": 0.8945538818076477,
+      "support": 390.0
+    },
+    "accuracy": 0.8541666666666666,
+    "macro avg": {
+      "precision": 0.894788793525895,
+      "recall": 0.808974358974359,
+      "f1-score": 0.8290951227220057,
+      "support": 624.0
+    },
+    "weighted avg": {
+      "precision": 0.8751085084636602,
+      "recall": 0.8541666666666666,
+      "f1-score": 0.8454598124934162,
+      "support": 624.0
+    }
+  }
+}
